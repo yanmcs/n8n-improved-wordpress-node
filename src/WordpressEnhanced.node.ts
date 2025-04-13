@@ -17,7 +17,7 @@ import { taxonomyOperations, taxonomyFields } from './descriptions/TaxonomyDescr
 // TODO: Import descriptions for Custom Post Type
 
 // Import Credentials
-import { WordpressApiCredentials } from './WordpressApiCredentials';
+import { WordpressApiCredentials } from './WordpressApiCredentials.credentials'; // Update filename
 
 // Import Generic Functions
 import { wordpressApiRequest, wordpressApiRequestAllItems } from './GenericFunctions';
