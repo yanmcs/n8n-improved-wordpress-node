@@ -1,4 +1,10 @@
-import { ICredentialType, INodeProperties } from 'n8n-workflow';
+import {
+	ICredentialType,
+	INodeProperties,
+	// IExecuteFunctions, // No longer needed here
+	// INodeApiTestResult, // Not available
+} from 'n8n-workflow';
+// TODO: Import wordpressApiRequest if needed for the actual test
 
 /**
  * Represents the structure for WordPress API credentials using Application Passwords.
@@ -45,5 +51,6 @@ export class WordpressApiCredentials implements ICredentialType {
 		},
 		// TODO: Add fields for OAuth2 authentication later
 	];
-	// TODO: Add test method to verify credentials
+
+	// Removed test method temporarily to resolve type errors
 }

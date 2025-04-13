@@ -17,8 +17,7 @@ class WordpressEnhanced {
         this.description = {
             displayName: 'WordPress Enhanced',
             name: 'wordpressEnhanced',
-            // Placeholder icon
-            icon: 'file:wordpress.svg',
+            // icon: 'file:wordpress.svg', // Removed icon property to avoid 404
             group: ['output'],
             version: 1,
             subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',

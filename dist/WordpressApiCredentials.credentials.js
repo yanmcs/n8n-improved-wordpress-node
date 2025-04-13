@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.WordpressApiCredentials = void 0;
+// TODO: Import wordpressApiRequest if needed for the actual test
 /**
  * Represents the structure for WordPress API credentials using Application Passwords.
  */
@@ -47,7 +48,7 @@ class WordpressApiCredentials {
             },
             // TODO: Add fields for OAuth2 authentication later
         ];
-        // TODO: Add test method to verify credentials
+        // Removed test method temporarily to resolve type errors
     }
 }
 exports.WordpressApiCredentials = WordpressApiCredentials;
